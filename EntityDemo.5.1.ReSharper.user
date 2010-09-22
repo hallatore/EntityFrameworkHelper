@@ -1,0 +1,95 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="0" />
+      <Item value="ds" priority="1" />
+      <Item value="posts" priority="0" />
+      <Item value="DBNull`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntityDemo.EntityModels.Post">
+      <Item value="User_Post_Relation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntityDemo.EntityModels.DataStoreContainer">
+      <Item value="User" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntityDemo.EntityModels.User">
+      <Item value="User_Post_Relation" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FE844809-EDF6-4C0D-8E7B-1D77C3EE599E/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/d:UserControls/f:ViewMessages.ascx.designer.cs" caret="450" fromTop="12" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/d:UserControls/f:ViewMessages.ascx" caret="275" fromTop="6" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Default.aspx" caret="494" fromTop="13" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Role.cs" caret="216" fromTop="7" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="1023" fromTop="31" />
+      <File id="FE844809-EDF6-4C0D-8E7B-1D77C3EE599E/f:Model1.edmx" caret="1817" fromTop="25" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:UserRoleRelation.cs" caret="177" fromTop="9" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Message.cs" caret="646" fromTop="26" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:User.cs" caret="946" fromTop="33" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:IEntities.cs" caret="0" fromTop="0" />
+      <File id="FE844809-EDF6-4C0D-8E7B-1D77C3EE599E/f:Entities.cs" caret="1299" fromTop="37" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:DataStore.cs" caret="0" fromTop="0" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Global.asax.cs" caret="235" fromTop="10" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Web.config" caret="255" fromTop="6" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/d:UserControls/f:ViewMessages.ascx.cs" caret="828" fromTop="27" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="3198" fromTop="24" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="2988" fromTop="19" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="3784" fromTop="44" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="2363" fromTop="26" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="2535" fromTop="33" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="4366" fromTop="37" />
+      <File id="FE844809-EDF6-4C0D-8E7B-1D77C3EE599E/f:Entities.cs" caret="208" fromTop="8" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="1991" fromTop="36" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="1516" fromTop="26" />
+      <File id="FE844809-EDF6-4C0D-8E7B-1D77C3EE599E/f:Model1.edmx" caret="1817" fromTop="25" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Role.cs" caret="647" fromTop="20" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Role.cs" caret="301" fromTop="10" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:User.cs" caret="987" fromTop="20" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:User.cs" caret="509" fromTop="13" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/d:UserControls/f:ViewMessages.ascx.designer.cs" caret="452" fromTop="12" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/d:UserControls/f:ViewMessages.ascx" caret="181" fromTop="1" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Default.aspx" caret="511" fromTop="13" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Default.aspx" caret="182" fromTop="2" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Message.cs" caret="287" fromTop="15" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Message.cs" caret="177" fromTop="9" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Role.cs" caret="216" fromTop="7" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:UserRoleRelation.cs" caret="177" fromTop="9" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:User.cs" caret="166" fromTop="7" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:Message.cs" caret="456" fromTop="21" />
+      <File id="496B1395-B256-4569-84A2-5C24DD592796/f:Entities.cs" caret="249" fromTop="11" />
+      <File id="261711EE-C071-418E-8577-4D66ABED58E2/f:User.cs" caret="770" fromTop="26" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Web.config" caret="404" fromTop="8" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Web.config" caret="192" fromTop="5" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Global.asax.cs" caret="355" fromTop="30" />
+      <File id="6AFA153C-6F0E-4C1C-AEEC-91772E05E329/f:Global.asax.cs" caret="235" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

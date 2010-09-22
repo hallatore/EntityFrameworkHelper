@@ -1,0 +1,7 @@
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\bin\Debug\EntityDemo.Model.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\bin\Debug\EntityDemo.Model.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\bin\Debug\EntityFrameworkHelper.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\bin\Debug\EntityFrameworkHelper.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\obj\Debug\EntityDemo.Model.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo.Model\obj\Debug\EntityDemo.Model.pdb

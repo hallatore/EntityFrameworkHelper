@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="6AFA153C-6F0E-4C1C-AEEC-91772E05E329" ModuleId="EntityDemo" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Data.Entity" />
+  <Module PersistentId="EntityFrameworkHelper, Version=1.0.0.0, Culture=neutral" ModuleId="EntityFrameworkHelper" />
+  <Module PersistentId="261711EE-C071-418E-8577-4D66ABED58E2" ModuleId="EntityDemo.Model" />
+  <Module PersistentId="EntityFrameworkHelper.Web, Version=1.0.0.0, Culture=neutral" ModuleId="EntityFrameworkHelper.Web" />
+  <Module PersistentId="FE844809-EDF6-4C0D-8E7B-1D77C3EE599E" ModuleId="EnityDemo.Dal.Sql" />
+  <Module PersistentId="496B1395-B256-4569-84A2-5C24DD592796" ModuleId="EntityDemo.Dal.MemoryDB" />
+</Modules>

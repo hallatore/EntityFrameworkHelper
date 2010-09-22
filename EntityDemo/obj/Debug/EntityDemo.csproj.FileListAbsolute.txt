@@ -1,0 +1,15 @@
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.Dal.MemoryDB.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.Dal.Sql.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.Model.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityFrameworkHelper.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityFrameworkHelper.Web.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.Dal.Sql.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.Dal.MemoryDB.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityDemo.Model.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityFrameworkHelper.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\bin\EntityFrameworkHelper.Web.pdb
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\obj\Debug\EntityDemo.dll
+C:\Users\Tore\Documents\Visual Studio 2010\Projects\EntityDemo\EntityDemo\obj\Debug\EntityDemo.pdb

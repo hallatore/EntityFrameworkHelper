@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="myModel1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="Model1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Message" EntityType="myModel1.Message" />
+    <EntitySet Name="Role" EntityType="myModel1.Role" />
+    <EntitySet Name="User" EntityType="myModel1.User" />
+    <EntitySet Name="UserRoleRelation" EntityType="myModel1.UserRoleRelation" />
+    <AssociationSet Name="FK_Message_User" Association="myModel1.FK_Message_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role_Relation_Role" Association="myModel1.FK_User_Role_Relation_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User_Role_Relation" EntitySet="UserRoleRelation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role_Relation_User" Association="myModel1.FK_User_Role_Relation_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="User_Role_Relation" EntitySet="UserRoleRelation" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Subject" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Text" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="DbType" Nullable="false" />
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="myModel1.FK_Message_User" FromRole="Message" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="UserRoleRelation" Relationship="myModel1.FK_User_Role_Relation_Role" FromRole="Role" ToRole="User_Role_Relation" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Message" Relationship="myModel1.FK_Message_User" FromRole="User" ToRole="Message" />
+    <NavigationProperty Name="UserRoleRelation" Relationship="myModel1.FK_User_Role_Relation_User" FromRole="User" ToRole="User_Role_Relation" />
+  </EntityType>
+  <EntityType Name="UserRoleRelation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="RoleId" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="myModel1.FK_User_Role_Relation_Role" FromRole="User_Role_Relation" ToRole="Role" />
+    <NavigationProperty Name="User" Relationship="myModel1.FK_User_Role_Relation_User" FromRole="User_Role_Relation" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_Message_User">
+    <End Type="myModel1.User" Role="User" Multiplicity="1" />
+    <End Type="myModel1.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role_Relation_Role">
+    <End Type="myModel1.Role" Role="Role" Multiplicity="1" />
+    <End Type="myModel1.UserRoleRelation" Role="User_Role_Relation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User_Role_Relation">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role_Relation_User">
+    <End Type="myModel1.User" Role="User" Multiplicity="1" />
+    <End Type="myModel1.UserRoleRelation" Role="User_Role_Relation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User_Role_Relation">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
